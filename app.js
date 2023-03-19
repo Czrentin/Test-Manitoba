@@ -55,10 +55,11 @@ for (let i = 0; i < picto.length; i++) {
     // Ajoute la class active au btn cliqué
     this.className += " active";
 
-    // Remplacer le texte dans les éléments "h4" et "p" avec le texte approprié
-    const name = textesDescription[i].nameForest;
-    const location = textesDescription[i].locationForest;
+    // Récupération des "h4" et "p"
     document.getElementById("forest-name").innerHTML = name;
     document.getElementById("forest-location").innerHTML = location;
+    // Remplacer le texte dans les éléments avec le texte approprié
+    const name = textesDescription[i].nameForest;
+    const location = textesDescription[i].locationForest;
   });
 }
