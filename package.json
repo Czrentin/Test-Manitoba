@@ -1,0 +1,11 @@
+{
+  "name": "test-manitoba",
+  "version": "1.0.0",
+  "description": "test technique entretien manitoba",
+  "main": "app.js",
+  "scripts": {
+    "sass" : "sass --watch ./main.scss:./CSS/style.css --style compressed"
+    },
+  "author": "Corentin Braud",
+  "license": "ISC"
+}
