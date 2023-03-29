@@ -19,7 +19,7 @@ html{
 /* #Region header */
 
 header{
-    background: url("assets/background_header.png");
+    background: url("/assets/background_header.png");
     background-position: center;
     background-size: cover;
     padding: 40px 0;
@@ -308,7 +308,7 @@ strong{
 /* #Region formulaire */
 
 .form-section{
-    background: url("assets/background_form.png");
+    background: url("/assets/background_form.png");
     background-position: center;
     background-size: cover;
     padding: 4%;
@@ -420,7 +420,7 @@ select, option, input {
 /* #endregion */
 
 footer{
-    background: url("assets/background_footer.png");
+    background: url("/assets/background_footer.png");
     background-position: center;
     background-size: cover;
     display: flex;
